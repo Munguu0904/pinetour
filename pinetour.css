@@ -3,10 +3,19 @@
   margin: 0;
 }
 body {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.map1zurag {
+  background-size: cover;
+  scale: 1.3;
+  width: 280px;
+  height: 350px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 1;
 }
 .hero {
   background-image: url(./87cef5d5d40a9f22a64d6937ad2f7df5b04e3d85.png);
@@ -59,21 +68,32 @@ body {
   padding-left: 30px;
   opacity: 1;
   justify-content: space-between;
-  angle: 0 deg;
   opacity: 1;
-  angle: 0 deg;
-  opacity: 1;
+  font-weight: 500px;
+  font-style: Medium;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
   font-family: Inter;
-  font-weight: 500;
   font-style: Medium;
   font-size: 24px;
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: bottom;
+  font-family: Inter;
+  font-weight: 500px;
+  font-style: Medium;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+
+  color: rgba(9, 9, 11, 1);
 }
 .loc2 {
   background-image: url(./94117af0fae2d95b54ef6842a38934433c1d99d7.png);
+  background-position: center;
   width: 275px;
   height: 370px;
   border-radius: 20px;
@@ -105,8 +125,23 @@ body {
 }
 
 .loc2-text {
+  position: relative;
 }
-
+.amarbyslntzurag {
+  width: 275px;
+  height: 370px;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  color: white;
+  justify-items: center;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  position: relative;
+  border-radius: 40px;
+}
 .loc-black-layer {
   position: absolute;
   inset: 0;
@@ -117,12 +152,17 @@ body {
 .loc-black-layer:hover {
   opacity: 0.4;
 }
-
+.amar {
+  position: relative;
+}
+.ter {
+  position: relative;
+}
 .loc3 {
   background-image: url(./amarbyslnt.png);
+  background-position: center;
   width: 275px;
   height: 370px;
-  border-radius: 20px;
   display: flex;
   overflow: hidden;
   color: white;
@@ -149,6 +189,7 @@ body {
 }
 .loc4 {
   background-image: url(./3addd77130ef139251c1b14778748735ed337e4d.png);
+  background-position: center;
   width: 275px;
   height: 370px;
   border-radius: 20px;
@@ -178,6 +219,7 @@ body {
 }
 .loc5 {
   background-image: url(./d2b97a2b78cccaa3f6ec592813187ea25729681e.png);
+  background-position: center;
   width: 275px;
   height: 370px;
   border-radius: 20px;
@@ -243,6 +285,7 @@ body {
   background-color: #eee9d9;
   padding: 30px;
   display: flex;
+  border: 4px solid transparent;
 }
 
 .box1 {
@@ -254,8 +297,17 @@ body {
   border-radius: 120px;
   padding: 30px;
   background-color: #8bb8c1cc;
+  border: 4px solid transparent;
 }
 
+.terhiintsagaan-zurag {
+  width: 252px;
+  height: 370px;
+  gap: 10px;
+  opacity: 1;
+  left: 12px;
+  padding: 10px;
+}
 .box2 {
   background-color: #aad8d7cc;
   width: 513px;
@@ -265,6 +317,7 @@ body {
   opacity: 1;
   border-radius: 120px;
   padding: 30px;
+  border: 4px solid transparent;
 }
 .box2-text {
   justify-content: space-between;
@@ -297,6 +350,7 @@ body {
   opacity: 1;
   border-radius: 120px;
   padding: 30px;
+  border: 4px solid transparent;
 }
 .box3-text {
 }
@@ -310,26 +364,27 @@ body {
   opacity: 1;
   border-radius: 120px;
   padding: 30px;
+  border: 4px solid transparent;
 }
 
 .box:hover {
-  border: 2px, solid, #ffffff;
+  border: white solid 4px;
   border-radius: 9999px;
 }
 .box1:hover {
-  border: 2px, solid, #ffffff;
+  border: white solid 4px;
   border-radius: 9999px;
 }
 .box2:hover {
-  border: 2px, solid, #ffffff;
+  border: white solid 4px;
   border-radius: 9999px;
 }
 .box3:hover {
-  border: 2px, solid, #ffffff;
+  border: white solid 4px;
   border-radius: 9999px;
 }
 .box4:hover {
-  border: 2px, solid, #ffffff;
+  border: 4px, solid, #ffffff;
   border-radius: 9999px;
 }
 .footer {
@@ -416,10 +471,37 @@ body {
   justify-content: space-between;
 }
 .lan {
-  width: 40px;
-  height: 40px;
-  padding-right: 118px;
-  padding-top: 30px;
+  width: 19px;
+  height: 17px;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 10px;
+  angle: 0 deg;
+  opacity: 1;
+  border-radius: 9999px;
+  background-color: white;
+  gap: 10px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+  margin-right: 118px;
+  margin-top: 30px;
+  color: #000000;
+}
+.lan-en {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 1);
 }
 .home {
   display: flex;
@@ -436,6 +518,10 @@ body {
   display: flex;
   padding-left: 118px;
   padding-top: 39px;
+  width: 100px;
+  height: 34px;
+  angle: 0 deg;
+  opacity: 1;
 }
 .purebody {
   width: 618px;
@@ -523,6 +609,17 @@ body {
   text-transform: capitalize;
   width: 1442px;
   height: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  color: rgba(24, 24, 27, 0.7);
 
   opacity: 1;
 }
@@ -763,8 +860,6 @@ body {
   align-items: center;
 }
 .SelectPackage:hover {
-  color: #ffffff;
-  background-color: #292929;
 }
 .des {
   font-family: Inter;
@@ -980,8 +1075,8 @@ body {
   padding-left: 120px;
   gap: 10px;
 }
-.variant2:hover.SelectPackage {
-  color: white;
+.variant2:hover ~ .SelectPackage {
+  background-color: #18181b;
 }
 .variant3:hover.SelectPackage:hover {
   color: #e8edf2;
@@ -1069,15 +1164,26 @@ body {
   width: 1200px;
   height: 44px;
   max-width: 1440px;
-  justify-content: space-between;
+
   angle: 0 deg;
   opacity: 1;
+  display: flex;
 }
 .sad {
   font-family: Inter;
   font-weight: 500;
   font-style: Medium;
   font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
@@ -1128,27 +1234,26 @@ body {
 .sukhbaatar-position {
   width: 200px;
   height: 200px;
-  left: 970px;
+  left: 1300px;
   margin-top: 200px;
   display: none;
 }
 
 .amarbaysgalant-position {
-  left: 800px;
-  margin-top: 100px;
+  left: 1150px;
+
   display: none;
 }
 
 .khorgogintogoo {
-  left: 650px;
-  margin-top: 150px;
+  left: 900px;
   display: none;
 }
 
 .terkh-position {
-  left: 700px;
+  left: 1000px;
   display: none;
-  margin-top: 280px;
+  margin-top: 250px;
 }
 
 .box:hover ~ .sukhbaatar-position {
@@ -1163,7 +1268,7 @@ body {
 }
 
 .khuvsgul-position {
-  left: 620px;
+  left: 930px;
   display: none;
 }
 
@@ -1175,6 +1280,84 @@ body {
 }
 
 .SelectPackage1:hover {
-  color: #ffffff;
-  background-color: #292929;
+}
+.facebook {
+  width: 167px;
+  height: 44px;
+  min-height: 44px;
+  gap: 10px;
+  angle: 0 deg;
+  opacity: 1;
+
+  padding-right: 20px;
+
+  padding-left: 20px;
+  border-radius: 9999px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(105, 114, 181, 1);
+}
+.facebooklogo {
+  width: 20.159997940063477px;
+  height: 20.159997940063477px;
+  top: 1.92px;
+  left: 1.92px;
+  angle: 0 deg;
+  opacity: 1;
+}
+.ins {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgba(105, 114, 181, 1);
+  width: 171px;
+  height: 44px;
+  min-height: 44px;
+  gap: 10px;
+  angle: 0 deg;
+  opacity: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-left: 20px;
+}
+.inslogo {
+  width: 24px;
+  height: 24px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.variant2:hover .SelectPackage {
+  color: white;
+  background-color: #000000;
+}
+.variant3:hover .SelectPackage1 {
+  color: white;
+  background-color: #000000;
+}
+.variant4:hover .SelectPackage {
+  color: white;
+  background-color: #000000;
 }
