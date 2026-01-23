@@ -20,7 +20,7 @@ body {
 .hero {
   background-image: url(./87cef5d5d40a9f22a64d6937ad2f7df5b04e3d85.png);
   height: 773px;
-  width: 1440px;
+
   background-position: center;
   background-size: cover;
   color: white;
@@ -254,7 +254,7 @@ body {
 }
 .roadmap {
   background-image: url(./f5b17d15dc77956189a929448458859006401865.png);
-  width: 1440px;
+
   height: 902px;
   background-size: cover;
 }
@@ -389,7 +389,6 @@ body {
 }
 .footer {
   background-image: url(./bfc82fd98ba90e92a1a6c0d5ac559a55f9413e51.png);
-  width: 1440px;
   height: 1120px;
   background-size: cover;
   justify-content: center;
